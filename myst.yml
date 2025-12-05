@@ -13,6 +13,15 @@ project:
     - file: README.md
     - file: 01-paper.md
     - file: 02-notebook.ipynb
+    - title: Раздел 1
+      children:
+        - file: 01-paper.md
+        - file: 02-notebook.ipynb
+        # Можно создавать вложенные подменю
+        # - title: Подраздел 1.1
+        #   children:
+        #     - file: part-1-1-page-a.md
+        #     - file: part-1-1-page-b.md
     
 site:
   template: book-theme
