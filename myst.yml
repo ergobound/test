@@ -15,7 +15,7 @@ project:
     - file: 02-notebook.ipynb
     
 site:
-  template: article-theme
+  template: book-theme
   options: 
     baseurl: "/mystmd-quickstart/"
   #   favicon: favicon.ico
